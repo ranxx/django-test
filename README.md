@@ -11,3 +11,9 @@
 启动命令：
 
 - python manage.py runserver 0.0.0.0:8000
+
+
+酒店
+日期
+    房型
+    价格
