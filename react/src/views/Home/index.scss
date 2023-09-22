@@ -1,0 +1,125 @@
+.main {
+  padding-top: 145px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  .title {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 24px;
+    font-size: 28px;
+  }
+  .hotel-list-title {
+    padding: 36px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+  }
+  h2 {
+    padding-bottom: 20px;
+  }
+  .book-hotel {
+    margin-top: 34px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #d9d9d9;
+    h3 {
+      border-bottom: 2px solid #000;
+      padding-bottom: 2px;
+      width: 2em;
+    }
+    .book-box {
+      margin-top: 38px;
+    }
+    .panne-warp {
+      position: relative;
+      .pannel {
+        position: absolute;
+        top: 44px;
+        left: 0;
+        width: 600px;
+        padding: 10px;
+        // height: 100px;
+        background-color: #fff;
+        border: 1px solid #d9d9d9;
+        border-radius: 4px;
+        z-index: 20;
+        .brands-select {
+          display: flex;
+          flex-direction: column;
+          .brands-item {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+          }
+          .brands-icon {
+            border-radius: 5px;
+            text-align: center;
+            box-sizing: border-box;
+            line-height: 80px;
+            border: 1px solid #d9d9d9;
+            margin-right: 10px;
+            margin-top: 10px;
+            overflow: hidden;
+            cursor: pointer;
+          }
+          .brand-active {
+            border-color: #000;
+          }
+          .brands-level {
+            color: #707070;
+            font-size: 12px;
+          }
+          .clean-button {
+            font-size: 12px;
+            color: #b84c16;
+          }
+          .clean-button:hover {
+            text-decoration: underline;
+          }
+          .brands-icon:before {
+            font-family: BrandLogoIcons;
+            display: inline-block;
+            width: 70px;
+            min-height: 80px;
+            font-size: 16px;
+            text-align: center;
+          }
+          .icon-12::before {
+            font-size: 12px;
+          }
+
+          .icon-28::before {
+            font-size: 28px;
+          }
+        }
+      }
+    }
+  }
+
+  .download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #d9d9d9;
+    width: 140px;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    padding: 0 8px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.88);
+    border-radius: 6px;
+    transition: all 0.2s;
+    cursor: pointer;
+    min-height: 40px;
+  }
+}
+.hotel-list {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

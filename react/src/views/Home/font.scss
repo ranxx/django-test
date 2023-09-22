@@ -1,0 +1,471 @@
+// @font-face {
+//   font-family: MarriottIcons;
+//   src: url(https://www.marriott.com.cn/aries/standards/assets/fonts/marriott-icons/marriott-icons.ttf)
+//     format("truetype");
+// }
+
+// @font-face {
+//   font-family: ProfileIcons;
+//   src: url(https://www.marriott.com.cn/aries/standards/assets/fonts/profile-icons/profile-icons.eot);
+//   src: url(https://www.marriott.com.cn/aries/standards/assets/fonts/profile-icons/profile-icons.eot?#iefix)
+//       format("embedded-opentype"),
+//     url(https://www.marriott.com.cn/aries/standards/assets/fonts/profile-icons/profile-icons.woff)
+//       format("woff"),
+//     url(https://www.marriott.com.cn/aries/standards/assets/fonts/profile-icons/profile-icons.ttf)
+//       format("truetype"),
+//     url(https://www.marriott.com.cn/aries/standards/assets/fonts/profile-icons/profile-icons.svg)
+//       format("svg");
+// }
+
+@font-face {
+  font-family: BrandLogoIcons;
+  src: url("../Home/font/brand-logo-icons.eot");
+  src: url("../Home/font/brand-logo-icons.eot?#iefix")
+      format("embedded-opentype"),
+    url("../Home/font/brand-logo-icons.woff") format("woff"),
+    url("../Home/font/brand-logo-icons.ttf") format("truetype"),
+    url("../Home/font/brand-logo-icons.svg") format("svg");
+}
+
+// @font-face {
+//   font-family: PortfolioLogoIcons;
+//   src: url(https://www.marriott.com.cn/aries/standards/assets/fonts/portfolio-logo-icons/portfolio-logo-icons.eot);
+//   src: url(https://www.marriott.com.cn/aries/standards/assets/fonts/portfolio-logo-icons/portfolio-logo-icons.eot?#iefix)
+//       format("embedded-opentype"),
+//     url(https://www.marriott.com.cn/aries/standards/assets/fonts/portfolio-logo-icons/portfolio-logo-icons.woff)
+//       format("woff"),
+//     url(https://www.marriott.com.cn/aries/standards/assets/fonts/portfolio-logo-icons/portfolio-logo-icons.ttf)
+//       format("truetype"),
+//     url(https://www.marriott.com.cn/aries/standards/assets/fonts/portfolio-logo-icons/portfolio-logo-icons.svg)
+//       format("svg");
+// }
+
+// @font-face {
+//   font-family: proxima-nova;
+//   src: url(https://www.marriott.com.cn/aries/standards/assets/fonts/proxima-nova-regular/proxima-nova-regular.eot);
+//   src: url(https://www.marriott.com.cn/aries/standards/assets/fonts/proxima-nova-regular/proxima-nova-regular.eot?#iefix)
+//       format("embedded-opentype"),
+//     url(https://www.marriott.com.cn/aries/standards/assets/fonts/proxima-nova-regular/proxima-nova-regular.woff)
+//       format("woff"),
+//     url(https://www.marriott.com.cn/aries/standards/assets/fonts/proxima-nova-regular/proxima-nova-regular.ttf)
+//       format("truetype"),
+//     url(https://www.marriott.com.cn/aries/standards/assets/fonts/proxima-nova-regular/proxima-nova-regular.svg)
+//       format("svg");
+//   font-weight: 500;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: proxima-nova;
+//   src: url(//cache.marriott.com/aka-fonts/MarriottDigital/proxima-nova-semibold.eot);
+//   src: url(//cache.marriott.com/aka-fonts/MarriottDigital/proxima-nova-semibold.eot#iefix)
+//       format("embedded-opentype"),
+//     url(//cache.marriott.com/aka-fonts/MarriottDigital/proxima-nova-semibold.woff)
+//       format("woff"),
+//     url(//cache.marriott.com/aka-fonts/MarriottDigital/proxima-nova-semibold.ttf)
+//       format("truetype"),
+//     url(//cache.marriott.com/aka-fonts/MarriottDigital/proxima-nova-semibold.svg)
+//       format("svg");
+//   font-weight: 600;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: proxima-nova;
+//   src: url(//cache.marriott.com/aka-fonts/MarriottDigital/proxima-nova-bold.eot);
+//   src: url(//cache.marriott.com/aka-fonts/MarriottDigital/proxima-nova-bold.eot#iefix)
+//       format("embedded-opentype"),
+//     url(//cache.marriott.com/aka-fonts/MarriottDigital/proxima-nova-bold.woff)
+//       format("woff"),
+//     url(//cache.marriott.com/aka-fonts/MarriottDigital/proxima-nova-bold.ttf)
+//       format("truetype"),
+//     url(//cache.marriott.com/aka-fonts/MarriottDigital/proxima-nova-bold.svg)
+//       format("svg");
+//   font-weight: 700;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: Swiss-721;
+//   src: url(//cache.marriott.com/aka-fonts/MarriottDigital/swiss/Swiss721BT-BoldCondensed.eot);
+//   src: url(//cache.marriott.com/aka-fonts/MarriottDigital/swiss/Swiss721BT-BoldCondensed.eot#iefix)
+//       format("embedded-opentype"),
+//     url(//cache.marriott.com/aka-fonts/MarriottDigital/swiss/Swiss721BT-BoldCondensed.woff)
+//       format("woff"),
+//     url(//cache.marriott.com/aka-fonts/MarriottDigital/swiss/Swiss721BT-BoldCondensed.ttf)
+//       format("truetype"),
+//     url(//cache.marriott.com/aka-fonts/MarriottDigital/swiss/Swiss721BT-BoldCondensed.svg)
+//       format("svg");
+//   font-weight: 700;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: Swiss-721;
+//   src: url(//cache.marriott.com/aka-fonts/MarriottDigital/swiss/Swiss721BT-BlackCondensed.eot);
+//   src: url(//cache.marriott.com/aka-fonts/MarriottDigital/swiss/Swiss721BT-BlackCondensed.eot#iefix)
+//       format("embedded-opentype"),
+//     url(//cache.marriott.com/aka-fonts/MarriottDigital/swiss/Swiss721BT-BlackCondensed.woff)
+//       format("woff"),
+//     url(//cache.marriott.com/aka-fonts/MarriottDigital/swiss/Swiss721BT-BlackCondensed.ttf)
+//       format("truetype"),
+//     url(//cache.marriott.com/aka-fonts/MarriottDigital/swiss/Swiss721BT-BlackCondensed.svg)
+//       format("svg");
+//   font-weight: 900;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: VideoIcons;
+//   src: url(https://www.marriott.com.cn/aries/standards/assets/fonts/video-icons/video-icons.eot);
+//   src: url(https://www.marriott.com.cn/aries/standards/assets/fonts/video-icons/video-icons.eot?#iefix)
+//       format("embedded-opentype"),
+//     url(https://www.marriott.com.cn/aries/standards/assets/fonts/video-icons/video-icons.woff)
+//       format("woff"),
+//     url(https://www.marriott.com.cn/aries/standards/assets/fonts/video-icons/video-icons.ttf)
+//       format("truetype"),
+//     url(https://www.marriott.com.cn/aries/standards/assets/fonts/video-icons/video-icons.svg)
+//       format("svg");
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: Univers Next W1G;
+//   src: url(//cache.marriott.com/aka-fonts/XtdLang/UniversNextW1G-Regular.eot);
+//   src: url(//cache.marriott.com/aka-fonts/XtdLang/UniversNextW1G-Regular.eot#iefix)
+//       format("embedded-opentype"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/UniversNextW1G-Regular.woff)
+//       format("woff"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/UniversNextW1G-Regular.ttf)
+//       format("truetype"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/UniversNextW1G-Regular.svg)
+//       format("svg");
+//   font-weight: 500;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: Univers Next W1G;
+//   src: url(//cache.marriott.com/aka-fonts/XtdLang/UniversNextW1G-Medium.eot);
+//   src: url(//cache.marriott.com/aka-fonts/XtdLang/UniversNextW1G-Medium.eot#iefix)
+//       format("embedded-opentype"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/UniversNextW1G-Medium.woff)
+//       format("woff"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/UniversNextW1G-Medium.ttf)
+//       format("truetype"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/UniversNextW1G-Medium.svg)
+//       format("svg");
+//   font-weight: 600;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: Univers Next W1G;
+//   src: url(//cache.marriott.com/aka-fonts/XtdLang/UniversNextW1G-Bold.eot);
+//   src: url(//cache.marriott.com/aka-fonts/XtdLang/UniversNextW1G-Bold.eot#iefix)
+//       format("embedded-opentype"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/UniversNextW1G-Bold.woff)
+//       format("woff"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/UniversNextW1G-Bold.ttf)
+//       format("truetype"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/UniversNextW1G-Bold.svg)
+//       format("svg");
+//   font-weight: 700;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: Univers LT CYR\55;
+//   src: url(//cache.marriott.com/aka-fonts/XtdLang/UniversLTCYR-55Roman.eot);
+//   src: url(//cache.marriott.com/aka-fonts/XtdLang/UniversLTCYR-55Roman.eot#iefix)
+//       format("embedded-opentype"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/UniversLTCYR-55Roman.woff)
+//       format("woff"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/UniversLTCYR-55Roman.ttf)
+//       format("truetype"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/UniversLTCYR-55Roman.svg)
+//       format("svg");
+//   font-weight: 500;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: Univers LT CYR\55;
+//   src: url(//cache.marriott.com/aka-fonts/XtdLang/UniversLTCYR-65Bold.eot);
+//   src: url(//cache.marriott.com/aka-fonts/XtdLang/UniversLTCYR-65Bold.eot#iefix)
+//       format("embedded-opentype"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/UniversLTCYR-65Bold.woff)
+//       format("woff"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/UniversLTCYR-65Bold.ttf)
+//       format("truetype"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/UniversLTCYR-65Bold.svg)
+//       format("svg");
+//   font-weight: 700;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: Noto Sans;
+//   src: url(//cache.marriott.com/aka-fonts/XtdLang/NotoSansTC-Regular.eot);
+//   src: url(//cache.marriott.com/aka-fonts/XtdLang/NotoSansTC-Regular.eot#iefix)
+//       format("embedded-opentype"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/NotoSansTC-Regular.woff)
+//       format("woff"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/NotoSansTC-Regular.ttf)
+//       format("truetype"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/NotoSansTC-Regular.svg)
+//       format("svg");
+//   font-weight: 400;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: Noto Sans;
+//   src: url(//cache.marriott.com/aka-fonts/XtdLang/NotoSansTC-Medium.eot);
+//   src: url(//cache.marriott.com/aka-fonts/XtdLang/NotoSansTC-Medium.eot#iefix)
+//       format("embedded-opentype"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/NotoSansTC-Medium.woff)
+//       format("woff"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/NotoSansTC-Medium.ttf)
+//       format("truetype"),
+//     url(//cache.marriott.com/aka-fonts/XtdLang/NotoSansTC-Medium.svg)
+//       format("svg");
+//   font-weight: 500;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: Swiss-721-Hebrew;
+//   src: url(//cache.marriott.com/aka-fonts/SwissHebrew/Swiss721HebrewBT-Regular.eot);
+//   src: url(//cache.marriott.com/aka-fonts/SwissHebrew/Swiss721HebrewBT-Regular.eot#iefix)
+//       format("embedded-opentype"),
+//     url(//cache.marriott.com/aka-fonts/SwissHebrew/Swiss721HebrewBT-Regular.woff)
+//       format("woff"),
+//     url(//cache.marriott.com/aka-fonts/SwissHebrew/Swiss721HebrewBT-Regular.ttf)
+//       format("truetype"),
+//     url(//cache.marriott.com/aka-fonts/SwissHebrew/Swiss721HebrewBT-Regular.svg)
+//       format("svg");
+//   font-weight: 500;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: Swiss-721-Hebrew;
+//   src: url(//cache.marriott.com/aka-fonts/SwissHebrew/Swiss721HebrewBT-Bold.eot);
+//   src: url(//cache.marriott.com/aka-fonts/SwissHebrew/Swiss721HebrewBT-Bold.eot#iefix)
+//       format("embedded-opentype"),
+//     url(//cache.marriott.com/aka-fonts/SwissHebrew/Swiss721HebrewBT-Bold.woff)
+//       format("woff"),
+//     url(//cache.marriott.com/aka-fonts/SwissHebrew/Swiss721HebrewBT-Bold.ttf)
+//       format("truetype"),
+//     url(//cache.marriott.com/aka-fonts/SwissHebrew/Swiss721HebrewBT-Bold.svg)
+//       format("svg");
+//   font-weight: 700;
+//   font-display: swap;
+// }
+.t-brand-logo-icon-LC::before,
+.t-brand-logo-icon-lc::before {
+  content: "\e914";
+}
+.t-brand-logo-icon-eb:before {
+  content: "\e906";
+
+  // font-size: 32px;
+}
+// 第一个
+.t-brand-logo-icon-eb:before {
+  content: "\e906";
+}
+.t-brand-logo-icon-RZ:before,
+.t-brand-logo-icon-rz:before {
+  content: "\e914";
+}
+
+.t-brand-logo-icon-MR:before {
+  content: "\e81d";
+}
+
+.t-brand-logo-icon-SPG:before {
+  content: "\e81e";
+}
+
+.t-brand-logo-icon-RCR:before,
+.t-brand-logo-icon-rcr:before {
+  content: "\e800";
+}
+
+.t-brand-logo-icon-RZ:before,
+.t-brand-logo-icon-rz:before {
+  content: "\e914";
+}
+
+.t-brand-logo-icon-EB:before,
+.t-brand-logo-icon-eb:before {
+  content: "\e906";
+}
+
+.t-brand-logo-icon-JW:before,
+.t-brand-logo-icon-jw:before {
+  content: "\e90b";
+}
+
+.t-brand-logo-icon-AK:before,
+.t-brand-logo-icon-ak:before {
+  content: "\e902";
+}
+
+.t-brand-logo-icon-BR:before,
+.t-brand-logo-icon-br:before {
+  content: "\e912";
+}
+
+.t-brand-logo-icon-DE:before,
+.t-brand-logo-icon-de:before {
+  content: "\e904";
+}
+
+.t-brand-logo-icon-MC:before,
+.t-brand-logo-icon-mc:before {
+  content: "\e90f";
+}
+
+.t-brand-logo-icon-ER:before,
+.t-brand-logo-icon-er:before {
+  content: "\e90e";
+}
+
+.t-brand-logo-icon-MV:before,
+.t-brand-logo-icon-mv:before {
+  content: "\e91a";
+}
+
+.t-brand-logo-icon-GE:before,
+.t-brand-logo-icon-ge:before {
+  content: "\e90a";
+}
+
+.t-brand-logo-icon-AR:before,
+.t-brand-logo-icon-ar:before {
+  content: "\e900";
+}
+
+.t-brand-logo-icon-CY:before,
+.t-brand-logo-icon-cy:before {
+  content: "\e903";
+}
+
+.t-brand-logo-icon-RI:before,
+.t-brand-logo-icon-ri:before {
+  content: "\e913";
+}
+
+.t-brand-logo-icon-SH:before,
+.t-brand-logo-icon-sh:before {
+  content: "\e916";
+}
+
+.t-brand-logo-icon-FI:before,
+.t-brand-logo-icon-fi:before {
+  content: "\e908";
+}
+
+.t-brand-logo-icon-TS:before,
+.t-brand-logo-icon-ts:before {
+  content: "\e918";
+}
+
+.t-brand-logo-icon-PR:before,
+.t-brand-logo-icon-pr:before {
+  content: "\e911";
+}
+
+.t-brand-logo-icon-OX:before,
+.t-brand-logo-icon-ox:before {
+  content: "\e910";
+}
+
+.t-brand-logo-icon-XR:before,
+.t-brand-logo-icon-xr:before {
+  content: "\e917";
+}
+
+.t-brand-logo-icon-LC:before,
+.t-brand-logo-icon-lc:before {
+  content: "\e90d";
+}
+
+.t-brand-logo-icon-WH:before,
+.t-brand-logo-icon-wh:before {
+  content: "\e91b";
+}
+
+.t-brand-logo-icon-WI:before,
+.t-brand-logo-icon-wi:before {
+  content: "\e91c";
+}
+
+.t-brand-logo-icon-SI:before,
+.t-brand-logo-icon-si:before {
+  content: "\e915";
+}
+
+.t-brand-logo-icon-MD:before,
+.t-brand-logo-icon-md:before {
+  content: "\e90c";
+}
+
+.t-brand-logo-icon-TX:before,
+.t-brand-logo-icon-tx:before {
+  content: "\e919";
+}
+
+.t-brand-logo-icon-DS:before,
+.t-brand-logo-icon-ds:before {
+  content: "\e905";
+}
+
+.t-brand-logo-icon-AL:before,
+.t-brand-logo-icon-al:before {
+  content: "\e901";
+}
+
+.t-brand-logo-icon-FP:before,
+.t-brand-logo-icon-fp:before {
+  content: "\e909";
+}
+
+.t-brand-logo-icon-EL:before,
+.t-brand-logo-icon-el:before {
+  content: "\e907";
+}
+
+.t-brand-logo-icon-BG:before,
+.t-brand-logo-icon-bg:before {
+  content: "\e91d";
+}
+
+.t-brand-logo-icon-HV:before {
+  content: "\e922";
+}
+
+.t-brand-logo-icon-tribrand:before {
+  content: "\e91f";
+}
+
+.t-brand-logo-icon-MI:before {
+  content: "\e81f";
+}
+
+.t-brand-logo-icon-SV:before {
+  content: "\e936";
+}
+
+.t-brand-logo-icon-WV:before {
+  content: "\e937";
+}
+
+.t-brand-logo-icon-XE:before,
+.t-brand-logo-icon-xe:before {
+  content: "\e925";
+}

@@ -1,0 +1,36 @@
+.pay-info {
+  .pay-wrap {
+    display: flex;
+    flex-direction: column;
+    .title {
+      background-color: #ebebeb;
+      padding-bottom: 30px;
+    }
+    .pay-inner {
+      display: flex;
+      .inner-right {
+        margin-left: 20px;
+        line-height: 36px;
+      }
+      .bed-number {
+        margin-top: 30px;
+      }
+      .bed-detail {
+        cursor: pointer;
+        color: #b84c16;
+        font-weight: 600;
+      }
+    }
+  }
+  .payment {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    padding-bottom: 8px;
+    align-items: center;
+    text-align: center;
+    span {
+      margin-right: 16px;
+    }
+  }
+}
